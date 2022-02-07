@@ -1,0 +1,59 @@
+// label {
+//     font-size: 35px;
+// }
+
+// input {
+//     border-width: 0.25em;
+//     border-color: green;
+//     font-weight: 800;
+
+    
+// }
+
+// .FieldDiv {
+//     // margin-right: 10em;    
+//     // margin-left: 5em;
+//     // inline-size: 30%;
+//     // block-size: 100%;
+
+//     justify-content: flex-end;
+
+//     // padding-left: 1em;
+// }
+
+// .FieldText {
+//     color: black;
+    
+//     font-size: 0.35em;
+
+//     margin-right: 0em;
+//     margin-left: 9.2em;
+
+//     inline-size: 100%;
+// }
+
+#flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.LabelDiv {
+
+    // margin-left: 1.5em;
+    font-size: 0.5em;
+    color: rgb(81, 221, 0);
+}
+
+.InputDiv {
+
+}
+
+.form-control {
+    
+}
+
+p {
+    font-size: 20px;
+    color: rgba(0, 153, 180, 0.137);
+}

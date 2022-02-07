@@ -1,0 +1,13 @@
+<label>Databinding övning, detta är i server.component</label>
+<div class="container">
+    <div class="row" id="flex">
+        <div class="LabelDiv">
+            <label class="FieldText">Caca Name</label>            
+        </div>
+        <div class="InputDiv">
+            <input type="text" class="form-control" [(ngModel)]="CacaName">
+            <p>{{CacaName}}</p>
+            <button class="btn btn-primary" [disabled]="CacaName === 'manipulate my box' " (click)="CacaName = '' ">RiS1</button>
+        </div>        
+    </div>
+</div>
